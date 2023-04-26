@@ -15,9 +15,7 @@ import java.util.Optional;
 @Slf4j
 @Service
 public class TodoService {
-    /* public String testService(){
-    return "Test Service";
-    }*/
+
     @Autowired
     private TodoRepository repository;
 
